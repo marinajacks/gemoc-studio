@@ -46,6 +46,14 @@
             <layout>p2</layout>
             <url>http://download.eclipse.org/nebula/snapshot/</url>
         </repository>
+        
+        <!-- efxclipse is normally part of the release train so this line is usually not necessary, 
+        however, we add it to get the last version that should contains better support for java 11 an javafx11 -->        
+        <repository>
+            <id>efxclipse</id>
+            <layout>p2</layout>
+            <url>http://download.eclipse.org/efxclipse/updates-released/3.4.1/site</url>
+        </repository>
     </repositories>
 
 
