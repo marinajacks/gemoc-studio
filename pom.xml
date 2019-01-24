@@ -56,6 +56,11 @@
             <layout>p2</layout>
             <url>http://www.kermeta.org/diverse-commons/updates/latest</url>
         </repository>
+        <repository>
+            <id>amalgam</id>
+            <layout>p2</layout>
+            <url>https://download.eclipse.org/modeling/amalgam/updates/stable/1.9.2-S20181203/capella/</url>
+        </repository>
     </repositories>
 
 
